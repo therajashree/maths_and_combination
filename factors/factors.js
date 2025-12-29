@@ -15,6 +15,6 @@ function factorsOfNumber(n) {
     return divisors;
 }
 
-console.log(factorsOfNumber(10)); // [ 1, 10, 2, 5 ]
-
+console.log(factorsOfNumber(100)); // [ 1, 10, 2, 5 ]
+console.log(factorsOfNumber(6));
 // node factors.js

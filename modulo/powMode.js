@@ -7,10 +7,10 @@ function powMode(x, n, m) {
             n--;
         } else {
             x = (x*x) % m;
-            n /=2;
+            n /= 2;
         }
     }
-    return res
+    return res % m;
 }
 
 // node powMode.js
